@@ -40,4 +40,4 @@ cp xpath_function.xml /etc/clickhouse
 ```
 
 ### Side notes
-- This project is highly inspired from [https://github.com/duyet/clickhouse-udf-rs].
+- This project is highly inspired from https://github.com/duyet/clickhouse-udf-rs.
