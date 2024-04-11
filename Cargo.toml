@@ -1,0 +1,17 @@
+[package]
+name = "xpath"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = 'xpath'
+path = 'src/bin/xpath.rs'
+
+[[bin]]
+name = 'xpath_to_array'
+path = 'src/bin/xpath_to_array.rs'
+
+[dependencies]
+anyhow = "1.0.82"
+sxd-xpath = "0.4.2"
+sxd-document = "*"

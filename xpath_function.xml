@@ -1,0 +1,35 @@
+<functions>
+    <!-- xpath -->
+    <function>
+        <name>xpath</name>
+        <type>executable_pool</type>
+        <command>xpath</command>
+        <format>tabseparated</format>
+        <argument>
+            <type>String</type>
+            <name>value</name>
+        </argument>
+        <argument>
+            <type>String</type>
+            <name>value</name>
+        </argument>
+        <return_type>String</return_type>
+    </function>
+
+    <!-- xpath to array -->
+    <function>
+        <name>xpath_to_array</name>
+        <type>executable_pool</type>
+        <command>xpath_to_array</command>
+        <format>tabseparated</format>
+        <argument>
+            <type>String</type>
+            <name>value</name>
+        </argument>
+        <argument>
+            <type>String</type>
+            <name>value</name>
+        </argument>
+        <return_type>Array(String)</return_type>
+    </function>
+</functions>
