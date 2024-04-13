@@ -32,8 +32,8 @@ cd xpath-clickhouse
 cargo build --release
 
 # Copy the releases to ClickHouse's user_scripts
-cp target/release/xpath /etc/clickhouse/user_scripts
-cp target/release/xpath_to_array /etc/clickhouse/user_scripts
+cp target/release/xpath /var/lib/clickhouse/user_scripts
+cp target/release/xpath_to_array /var/lib/clickhouse/user_scripts
 
 # Copy the UDF declaration to ClickHouse root
 cp xpath_function.xml /etc/clickhouse
